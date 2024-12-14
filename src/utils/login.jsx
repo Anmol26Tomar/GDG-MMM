@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/Components/ui/Button"
 import {
   Dialog,
   DialogContent,
@@ -6,9 +6,9 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTrigger,
-} from "@/components/ui/dialog.jsx"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+} from "@/Components/ui/Dialog.jsx"
+import { Input } from "@/Components/ui/Input"
+import { Label } from "@/Components/ui/Label"
 import { Link } from 'react-router-dom';
 
 

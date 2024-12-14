@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card.jsx";
+import { Card, CardContent } from "@/Components/ui/Card.jsx";
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
     CarouselPrevious,
     CarouselNext,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/Carousel";
 
 function RecentWinner() {
     return (
