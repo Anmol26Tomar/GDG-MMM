@@ -7,8 +7,8 @@ import {
   DialogHeader,
   DialogTrigger,
 } from "@/Components/ui/Dialog.jsx"
-import { Input } from "@/Components/ui/Input"
-import { Label } from "@/Components/ui/Label"
+import { Input } from "@/Components/ui/Input.jsx"
+import { Label } from "@/Components/ui/Label.jsx"
 import { Link } from 'react-router-dom';
 
 

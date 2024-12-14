@@ -1,37 +1,3 @@
-// import React, { useEffect, useState } from 'react';
-// import formerLeadsData from './../utils/slidesData.json'; 
-
-
-// const FormerLeads = () => {
-//   const [formerLeads, setFormerLeads] = useState([]);
-
-//   useEffect(() => {
-//     setFormerLeads(formerLeadsData);
-//   }, []);
-
-//   return (
-//     <div className="former-leads-container">
-//       <h1 className="text-2xl font-semibold text-center mb-8">Former GDG Leads</h1>
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//         {formerLeads.map((lead, index) => (
-//           <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg">
-//             <img
-//               src={lead.image}
-//               alt={lead.name}
-//               className="w-full h-56 object-cover rounded-lg mb-4"
-//             />
-//             <h3 className="text-xl font-medium text-white">{lead.name}</h3>
-//             <p className="text-sm text-gray-400 mt-2">{lead.description}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FormerLeads;
-
-
 import React, { useEffect, useState } from 'react';
 import formerLeadsData from './../utils/slidesData.json';
 

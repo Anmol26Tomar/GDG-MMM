@@ -6,7 +6,7 @@ import {
     CarouselItem,
     CarouselPrevious,
     CarouselNext,
-} from "@/Components/ui/Carousel";
+} from "@/Components/ui/Carousel.jsx";
 
 function RecentWinner() {
     return (

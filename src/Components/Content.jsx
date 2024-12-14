@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import pointerBtn from './../assets/pointerBtn.svg';
-import { Link } from 'react-router-dom';
-
 
 function Content() {
     const [showPointer, setShowPointer] = useState(false);

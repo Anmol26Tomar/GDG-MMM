@@ -4,17 +4,13 @@ import * as React from "react"
 
 import { Button } from "@/Components/ui/Button"
 import { FaQuestion } from "react-icons/fa";
-import {
-    Drawer,
-    DrawerClose,
+import { Drawer,DrawerClose,
     DrawerContent,
     DrawerDescription,
     DrawerFooter,
     DrawerHeader,
     DrawerTitle,
-    DrawerTrigger,
-} from "@/Components/ui/Drawer"
-
+    DrawerTrigger, } from "@/Components/ui/Drawer.jsx";
 
 
 export default function DrawerDemo({ label, color }) {
